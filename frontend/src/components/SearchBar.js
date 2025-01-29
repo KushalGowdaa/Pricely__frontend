@@ -56,7 +56,7 @@ const ProductSearch = () => {
             <br></br>
             <br></br>
             {/* <h1 className='d-flex justify-content-center m fw-bold font-color display-4 align-items-center'><img src={logo} className='img-fluid rounded-circle m-3' style={{width: 60, height: 60,}}></img>Pricely Compare</h1> */}
-            <h6 className='d-flex justify-content-center fw-bold font-color'>Pricely fetches relevant results then compares the prices and provides the best value website through which you can buy your product.</h6>
+            <h5 className='d-flex justify-content-center fw-bold font-color'>Pricely fetches relevant results then compares the prices and provides the best value website through which you can buy your product.</h5>
             <br></br>
             <form onSubmit={handleSearch} className='d-flex justify-content-center' >
                 <div className="input-group input-group-md-6 rounded p-4">
