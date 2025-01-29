@@ -32,7 +32,7 @@ const HomePage = () => {
 
                 </div>
                 <div className='row container rounded d-flex justify-content-center margin bg-light'>
-                    <div className='col border-color rounded m-4'>
+                    <div className='col-md-6 border-color rounded m-4'>
                         <h2 className='m-2 font-color font-2 display-4'>
                             Search
                         </h2>
@@ -41,7 +41,7 @@ const HomePage = () => {
                         </p>
                     </div>
                 
-                    <div className='col border-color rounded m-4'>
+                    <div className='col-md-6 border-color rounded m-4'>
                         <h2 className='m-2 font-color font-2 display-4 '>
                             Compare
                         </h2>
@@ -49,7 +49,7 @@ const HomePage = () => {
                         Pricely compares prices, discounts, and shipping costs to find the best deal.
                         </p>
                     </div>
-                    <div className='col border-color rounded m-4'>
+                    <div className='col-md-6 border-color rounded m-4'>
                         <h2 className='m-2 font-color font-2 display-4 '>
                             Buy
                         </h2>
@@ -60,10 +60,10 @@ const HomePage = () => {
                 </div>
                 <div className='container bg rounded'>
                     <div className='container row p-4'>
-                        <div className='col'>
+                        <div className='col-md-6'>
                             <img className='img-fluid' src={hero2} style={{height:300}}></img>
                         </div>
-                        <div className='col align-self-center'>
+                        <div className='col-md-6 align-self-center'>
                             <h1 className='d-flex justify-content-center head-color fw-bolder display-4 font-2 p-4 align-items-center'>
                                 Find the Best Deals in One Click!
                             </h1>
