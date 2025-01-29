@@ -1,6 +1,5 @@
 import './App.css';
 import HomePage from './components/HomePage';
-import ProductSearch from './components/SearchBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
