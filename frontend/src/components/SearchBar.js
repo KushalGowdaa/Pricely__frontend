@@ -15,7 +15,7 @@ const ProductSearch = () => {
         setError(null);
         setLoading(true);
         try {
-            const response = await axios.get(`http://localhost:8000/api/compare/`, {
+            const response = await axios.get(`https://pricely-vyy4.onrender.com/api/compare/`, {
                 params: { query },
             });
             setResults(response.data);
