@@ -71,12 +71,12 @@ const HomePage = () => {
                     </div>
 
                     <div className='container row p-4'>
-                        <div className='col align-self-center'>
+                        <div className='col-md-6 align-self-center'>
                             <h3 className='font-2 head-color display-6 p-4'>
                                 Tired of switching between multiple websites to compare prices?
                             </h3>
                         </div>
-                        <div className='col'>
+                        <div className='col-md-6'>
                             <img className='img-fluid float-right' src={hero} style={{height:400}}></img>
                         </div>
                     </div>
